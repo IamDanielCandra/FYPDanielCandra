@@ -72,7 +72,7 @@ def reviewLemmatizer(reviewList):
         return revList
 
 def main():
-    st.title("Restaurant Price Prediction")
+    st.title("Restaurant Price Prediction by Daniel Candra TP060288")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit Restaurant Price Prediction App </h2>
