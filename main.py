@@ -111,7 +111,6 @@ def main():
         if review:
             reviews.append(review)
             st.write("Review added:", review)
-            st.write(reviews)
             counter += 1
         else:
             break
