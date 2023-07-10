@@ -6,7 +6,9 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import nltk
 import re
-
+nltk.download('averaged_perceptron_tagger')
+nltk.download("wordnet")
+nltk.download('vader_lexicon')
 
 pickle_in = open("xgbmodel.pkl","rb")
 classifier = pickle.load(pickle_in)
